@@ -1,0 +1,52 @@
+.body-noscroll{
+	overflow: hidden;
+}
+.container{
+	max-width: 1050px;
+	margin: 0 auto;
+	padding: 0 25px;
+}
+.roboto{
+	font-family: 'Roboto';
+}
+.bignoodle{
+	font-family: 'BigNoodle Titing';
+}
+.title{
+	color: #3d3d3d;
+	font-family: 'BigNoodle Titing';
+	font-size: 48pt;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1;
+}
+.title-underline{
+	width: 150px;
+	height: 3px;
+	margin: 0 auto;
+	background-color: #F4511E;
+}
+.subtitle{
+	max-width: 65%;
+	margin: 25px auto 0;
+	color: #696969;
+	font-family: 'Roboto';
+	font-size: 14pt;
+	font-weight: 100;
+	text-align: center;
+}
+
+@media(max-width: 990px){
+	.subtitle{
+		max-width: 80%;
+	}
+}
+@media(max-width: 550px){
+	.title{
+		font-size: 40pt;
+	}
+	.subtitle{
+		max-width: 100%;
+		font-size: 12pt;
+	}
+}

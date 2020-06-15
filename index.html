@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Boostfolia</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="assets/css/tools.css">
+	<link rel="stylesheet" href="assets/fonts/fonts.css">
+	<link rel="stylesheet" href="assets/css/modal-windows.css">
+</head>
+<body>
+<header class="header bignoodle">
+	<div class="container">
+		<div class="header__inner">
+			<div class="header__logo">
+				<picture>
+					<source srcset="assets/images/header/logo@x1.png 1x, assets/images/header/logo@x2.png 2x">
+					<img src="assets/images/header/logo@x1.png" alt="logo">
+				</picture>
+				<img src="assets/images/header/moving-logo.png" alt="rocket" class="active-rocket">
+				Boostfolia
+			</div>
+			<div class="close-header-nav"></div>
+			<div class="header__nav-wrapper">
+				<div class="header__nav-inner">
+					<div class="header__nav-btn"><span></span></div>
+					<nav class="nav">
+						<a href="#" class="nav__link" data-block="about">About Us</a>
+						<a href="#" class="nav__link" data-block="portfolio">Portfolio</a>
+						<a href="#" class="nav__link" data-block="team">Team</a>
+						<a href="#" class="nav__link" data-block="blog">Blog</a>
+						<a href="#" class="nav__link" data-block="plan">Choose Your Plan</a>
+						<a href="#" class="nav__link" data-block="contact">Contact</a>
+					</nav>
+				</div>
+			</div>
+		</div>	<!-- header inner -->
+	</div>	<!-- container -->
+</header>	<!-- header -->
+
+<!-- ゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴ -->
+
+<div class="intro bignoodle">
+	<div class="intro__works">
+		<div class="intro__works-prev">
+			<img src="assets/images/intro/prev.png" alt="prev">
+		</div>
+			<div class="intro__works__items">
+				<div class="intro__work__item" id="work__item-1"></div>
+				<div class="intro__work__item" id="work__item-2"></div>
+				<div class="intro__work__item" id="work__item-3"></div>
+			</div>
+		<div class="intro__works-next intro__works-next-active">
+			<img src="assets/images/intro/next.png" alt="next">
+		</div>
+	</div>	<!-- works slider -->
+	<div class="container">
+		<div class="intro__inner">
+			<div class="intro__title">We think creative be creative</div>
+			<div class="intro__subtitle">like to do creative works</div>
+			<img src="assets/images/intro/mouse.png" alt="mouse" class="intro__mouse">
+			<div class="intro__scrolldown-text roboto">scroll down</div>
+		</div>	<!-- intro inner -->
+	</div>	<!-- container -->
+</div>	<!-- intro -->
+
+<!-- ゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴ -->
+
+<div class="about roboto">
+	<div class="container" data-block="about">
+		<div class="about__inner">
+			<div class="title">About&nbsp;&nbsp;us</div>
+			<div class="title-underline"></div>
+			<div class="subtitle">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+			</div>
+			<div class="about__items">
+				<div class="about__item" data-modal="1">
+					<div class="about__item-icon">
+						<img src="assets/images/about/about-item-1.png" alt="icon">
+					</div>
+					<div class="about__item-title">Creative Design</div>
+					<div class="about__item-text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do . . .
+					</div>
+				</div>
+				<div class="about__item" data-modal="2">
+					<div class="about__item-icon">
+						<img src="assets/images/about/about-item-2.png" alt="icon">
+					</div>
+					<div class="about__item-title">Unique Portfolio</div>
+					<div class="about__item-text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do . . .
+					</div>
+				</div>
+				<div class="about__item" data-modal="3">
+					<div class="about__item-icon">
+						<img src="assets/images/about/about-item-3.png" alt="icon">
+					</div>
+					<div class="about__item-title">Infinite Updates</div>
+					<div class="about__item-text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do . . .
+					</div>
+				</div>
+			</div>
+		</div>	<!-- about inner -->
+	</div>	<!-- container -->
+	<div class="modal-wrapper about__modal-wrapper">
+		<div class="modal about__modal">
+			<div class="close-modal about__close-modal"><span></span></div>
+				<div class="modal-content about__modal-content" data-modal="1">
+					<div class="about__modal-title">
+						<img src="assets/images/about/about-item-1.png" alt="icon">
+						<p>Creative Design</p>
+					</div>
+					<div class="about__modal-text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi corporis, sapiente assumenda ad dolorum! Praesentium ex, quas iste? Magnam consequuntur magni nobis culpa. Sunt beatae, perferendis. Maiores quis sit, iusto, quos cumque voluptate aliquid molestiae, vel atque ipsam ipsum, vero sapiente placeat impedit itaque. Corrupti quasi nisi reprehenderit, ipsam similique vero eaque perspiciatis, sequi illum dolorum, perferendis ea sed aspernatur accusamus. Quam dolorum, ipsam recusandae temporibus eaque odio possimus dolorem soluta molestias! Excepturi quaerat dolorum nobis mollitia accusamus architecto ad officia totam qui nisi? Voluptatum alias, laudantium exercitationem officiis, necessitatibus ex minima, quibusdam natus dolorem iusto eius aperiam. Error ullam, similique nisi praesentium. Est, placeat, perspiciatis! Blanditiis temporibus quos neque consequuntur commodi magni, in sint ab veniam similique voluptas et atque! Inventore fuga vel blanditiis nostrum voluptas, laboriosam. Autem consectetur sed adipisci deleniti quam unde at, consequuntur quos asperiores id, a exercitationem quaerat corporis, saepe fuga quo nisi repudiandae voluptates cumque labore facere ipsam. Dolor, delectus! Tenetur vero aut dignissimos, eum culpa cumque id animi maiores beatae omnis nobis voluptates impedit repellendus distinctio sit natus laborum adipisci, nisi ipsam assumenda totam! Quaerat quam, nulla similique amet fugit corrupti sit deserunt dolor nostrum libero non eum earum corporis numquam aliquid mollitia dolores molestias, quo. Vitae commodi velit officiis modi aperiam recusandae, et qui. Velit tenetur optio, ad cum distinctio ratione ducimus atque reprehenderit qui, excepturi quisquam minima maxime nostrum quaerat at minus tempore magnam alias illo pariatur exercitationem. Sequi veritatis tenetur similique ab quo labore quae, hic, officiis exercitationem iusto asperiores blanditiis facere molestias, harum iste illum minus doloremque error temporibus eos perferendis assumenda in dolores. Eveniet modi cum delectus debitis quas sed dolore, dignissimos quae quibusdam neque beatae assumenda ullam facere minima deleniti, molestiae harum reprehenderit consectetur eligendi excepturi illo quaerat numquam quod consequatur quidem. Ut, labore voluptatum nihil distinctio.
+					</div>
+				</div>	<!-- modal content 1-->
+
+				<div class="modal-content about__modal-content" data-modal="2">
+					<div class="about__modal-title">
+						<img src="assets/images/about/about-item-2.png" alt="icon">
+						<p>Unique Portfolio</p>
+					</div>
+					<div class="about__modal-text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi corporis, sapiente assumenda ad dolorum! Praesentium ex, quas iste? Magnam consequuntur magni nobis culpa. Sunt beatae, perferendis. Maiores quis sit, iusto, quos cumque voluptate aliquid molestiae, vel atque ipsam ipsum, vero sapiente placeat impedit itaque. Corrupti quasi nisi reprehenderit, ipsam similique vero eaque perspiciatis, sequi illum dolorum, perferendis ea sed aspernatur accusamus. Quam dolorum, ipsam recusandae temporibus eaque odio possimus dolorem soluta molestias! Excepturi quaerat dolorum nobis mollitia accusamus architecto ad officia totam qui nisi? Voluptatum alias, laudantium exercitationem officiis, necessitatibus ex minima, quibusdam natus dolorem iusto eius aperiam. Error ullam, similique nisi praesentium. Est, placeat, perspiciatis! Blanditiis temporibus quos neque consequuntur commodi magni, in sint ab veniam similique voluptas et atque! Inventore fuga vel blanditiis nostrum voluptas, laboriosam. Autem consectetur sed adipisci deleniti quam unde at, consequuntur quos asperiores id, a exercitationem quaerat corporis, saepe fuga quo nisi repudiandae voluptates cumque labore facere ipsam. Dolor, delectus! Tenetur vero aut dignissimos, eum culpa cumque id animi maiores beatae omnis nobis voluptates impedit repellendus distinctio sit natus laborum adipisci, nisi ipsam assumenda totam! Quaerat quam, nulla similique amet fugit corrupti sit deserunt dolor nostrum libero non eum earum corporis numquam aliquid mollitia dolores molestias, quo. Vitae commodi velit officiis modi aperiam recusandae, et qui. Velit tenetur optio, ad cum distinctio ratione ducimus atque reprehenderit qui, excepturi quisquam minima maxime nostrum quaerat at minus tempore magnam alias illo pariatur exercitationem. Sequi veritatis tenetur similique ab quo labore quae, hic, officiis exercitationem iusto asperiores blanditiis facere molestias, harum iste illum minus doloremque error temporibus eos perferendis assumenda in dolores. Eveniet modi cum delectus debitis quas sed dolore, dignissimos quae quibusdam neque beatae assumenda ullam facere minima deleniti, molestiae harum reprehenderit consectetur eligendi excepturi illo quaerat numquam quod consequatur quidem. Ut, labore voluptatum nihil distinctio.
+					</div>
+				</div>	<!-- modal content 2-->
+
+				<div class="modal-content about__modal-content" data-modal="3">
+					<div class="about__modal-title">
+						<img src="assets/images/about/about-item-3.png" alt="icon">
+						<p>Infinite Updates</p>
+					</div>
+					<div class="about__modal-text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi corporis, sapiente assumenda ad dolorum! Praesentium ex, quas iste? Magnam consequuntur magni nobis culpa. Sunt beatae, perferendis. Maiores quis sit, iusto, quos cumque voluptate aliquid molestiae, vel atque ipsam ipsum, vero sapiente placeat impedit itaque. Corrupti quasi nisi reprehenderit, ipsam similique vero eaque perspiciatis, sequi illum dolorum, perferendis ea sed aspernatur accusamus. Quam dolorum, ipsam recusandae temporibus eaque odio possimus dolorem soluta molestias! Excepturi quaerat dolorum nobis mollitia accusamus architecto ad officia totam qui nisi? Voluptatum alias, laudantium exercitationem officiis, necessitatibus ex minima, quibusdam natus dolorem iusto eius aperiam. Error ullam, similique nisi praesentium. Est, placeat, perspiciatis! Blanditiis temporibus quos neque consequuntur commodi magni, in sint ab veniam similique voluptas et atque! Inventore fuga vel blanditiis nostrum voluptas, laboriosam. Autem consectetur sed adipisci deleniti quam unde at, consequuntur quos asperiores id, a exercitationem quaerat corporis, saepe fuga quo nisi repudiandae voluptates cumque labore facere ipsam. Dolor, delectus! Tenetur vero aut dignissimos, eum culpa cumque id animi maiores beatae omnis nobis voluptates impedit repellendus distinctio sit natus laborum adipisci, nisi ipsam assumenda totam! Quaerat quam, nulla similique amet fugit corrupti sit deserunt dolor nostrum libero non eum earum corporis numquam aliquid mollitia dolores molestias, quo. Vitae commodi velit officiis modi aperiam recusandae, et qui. Velit tenetur optio, ad cum distinctio ratione ducimus atque reprehenderit qui, excepturi quisquam minima maxime nostrum quaerat at minus tempore magnam alias illo pariatur exercitationem. Sequi veritatis tenetur similique ab quo labore quae, hic, officiis exercitationem iusto asperiores blanditiis facere molestias, harum iste illum minus doloremque error temporibus eos perferendis assumenda in dolores. Eveniet modi cum delectus debitis quas sed dolore, dignissimos quae quibusdam neque beatae assumenda ullam facere minima deleniti, molestiae harum reprehenderit consectetur eligendi excepturi illo quaerat numquam quod consequatur quidem. Ut, labore voluptatum nihil distinctio.
+					</div>
+				</div>	<!-- modal content 3-->
+			
+			<div class="modal-nav">
+				<div class="modal-prev about__modal-prev">
+					<img src="assets/images/about/about-prev.png" alt="prev">
+				</div>
+				<div class="modal-next about__modal-next">
+					<img src="assets/images/about/about-next.png" alt="next">
+				</div>
+			</div>
+		</div>	<!-- modal -->
+	</div>	<!-- modal wrapper -->
+</div>	<!-- about -->
+
+<!-- ゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴ -->
+
+<div class="behind__the__scenes roboto">
+	<div class="bts__left">
+		<div class="bts__title">Watch behind the scenes</div>
+		<div class="bts__text">
+			Lorem ipsum dolo the lorem r sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+		</div>
+		<div class="bts__play-now">Play now</div>
+	</div>
+	<div class="bts__right">
+		<div class="play__video">
+			<img src="assets/images/bts/play.png" alt="play">
+		</div>
+	</div>
+	<div class="bts__video">
+		<video src="assets/images/bts/video.mp4" controls></video>
+	</div>
+</div>	<!-- behind__the__scenes -->
+
+<!-- ゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴ -->
+
+<div class="portfolio roboto">
+	<div class="container" data-block="portfolio">
+		<div class="portfolio__inner">
+			<div class="title">Our&nbsp;&nbsp;Works</div>
+			<div class="title-underline"></div>
+			<div class="subtitle">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+			</div>
+			<div class="portfolio__bar">
+				<a href="#" class="portfolio__bar-item portfolio__bar-item-active">All Projects</a>
+				<a href="#" class="portfolio__bar-item" data-portfolio="photography">Photography</a>
+				<a href="#" class="portfolio__bar-item" data-portfolio="web">Web Design</a>
+				<a href="#" class="portfolio__bar-item" data-portfolio="branding">Branding</a>
+				<a href="#" class="portfolio__bar-item" data-portfolio="apps">Mobile App</a>
+			</div>
+		</div>	<!-- portfolio inner -->
+	</div>	<!-- container -->
+	<div class="portfolio__items">
+		<div class="portfolio__line">
+			<div class="portfolio__item" data-portfolio="photography">
+				<img src="assets/images/portfolio/photo-1.jpg" alt="photography">
+			</div>
+			<div class="portfolio__item" data-portfolio="photography">
+				<img src="assets/images/portfolio/photo-2.jpg" alt="photography">
+			</div>
+			<div class="portfolio__item portfolio__item-no-border" data-portfolio="photography">
+				<img src="assets/images/portfolio/photo-3.jpg" alt="photography">
+			</div>
+		</div>
+		<div class="portfolio__line">
+			<div class="portfolio__item" data-portfolio="web">
+				<img src="assets/images/portfolio/design-1.jpg" alt="design">
+			</div>
+			<div class="portfolio__item" data-portfolio="web">
+				<img src="assets/images/portfolio/design-2.jpg" alt="design">
+			</div>
+			<div class="portfolio__item portfolio__item-no-border" data-portfolio="apps">
+				<img src="assets/images/portfolio/mobile-1.jpg" alt="mobile">
+			</div>
+		</div>
+		<div class="portfolio__line">
+			<div class="portfolio__item" data-portfolio="branding">
+				<img src="assets/images/portfolio/branding-1.jpg" alt="branding">
+			</div>
+			<div class="portfolio__item" data-portfolio="branding">
+				<img src="assets/images/portfolio/branding-2.jpg" alt="branding">
+			</div>
+			<div class="portfolio__item portfolio__item-no-border" data-portfolio="apps">
+				<img src="assets/images/portfolio/mobile-2.jpg" alt="mobile">
+			</div>
+		</div>
+	</div>	<!-- portfolio items -->
+</div>	<!-- portfolio -->
+
+<!-- ゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴ -->
+
+<div class="clients">
+	<div class="container">
+		<div class="clients__inner">
+			<div class="clients__item">
+				<img src="assets/images/clients/c-item-1.png" alt="client">
+			</div>
+			<div class="clients__item">
+				<img src="assets/images/clients/c-item-2.png" alt="client" id="c-item-2">
+			</div>
+			<div class="clients__item">
+				<img src="assets/images/clients/c-item-3.png" alt="client">
+			</div>
+		</div>	<!-- clients inner -->
+	</div>	<!-- container -->
+</div>	<!-- clients -->
+
+<!-- ゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴ -->
+
+<div class="team roboto">
+	<div class="container" data-block="team">
+		<div class="team__inner">
+			<div class="title">Who&nbsp;&nbsp;we&nbsp;&nbsp;are</div>
+			<div class="title-underline"></div>
+			<div class="subtitle">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore manga aliqua. Ut enim ad minim veniam.
+			</div>
+			<div class="team__members">
+				<div class="team__member team__member-active" data-member="1">
+					<div class="team__member-left">
+						<div class="team__member-avatar">
+							<img src="assets/images/team/team-member-1.jpg" alt="member">
+						</div>
+						<div class="team__member-name">Mark Wolberg</div>
+						<div class="team__member-prof">Developer</div>
+						<div class="team__member-social">
+							<a href="https://www.behance.net/" target="blank" class="team__member-social-item team__member-social-item-behance">
+								<img src="assets/images/team/social-1.png" alt="behance">
+							</a>
+							<a href="https://www.twitter.com" target="blank" class="team__member-social-item team__member-social-item-twitter">
+								<img src="assets/images/team/social-2.png" alt="twitter">
+							</a>
+							<a href="https://www.facebook.com/" target="blank" class="team__member-social-item team__member-social-item-facebook">
+								<img src="assets/images/team/social-3.png" alt="facebook">
+							</a>
+						</div>
+						<div class="members-switchers">
+							<button class="member-switcher member-switcher-active"></button>
+							<button class="member-switcher" data-member="2"></button>
+							<button class="member-switcher" data-member="3"></button>
+						</div>
+					</div>
+					<div class="team__member-right">
+						<div class="team__member-title">My skills</div>
+						<div class="team__member-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.nsectetur adipisicing elit, sed do eiusmod tempor.
+						</div>
+						<div class="team__member-skills">
+							<div class="team__member-skills-row">
+								<div class="team__member-skills-left">Photoshop</div>
+								<div class="team__member-skills-right">
+									<div class="team__member-skill team__member-skill-ps"></div>88%
+								</div>
+							</div>
+							<div class="team__member-skills-row">
+								<div class="team__member-skills-left">Illustrator</div>
+								<div class="team__member-skills-right">
+									<div class="team__member-skill team__member-skill-ill"></div>92%
+								</div>
+							</div>
+							<div class="team__member-skills-row">
+								<div class="team__member-skills-left">Sketch</div>
+								<div class="team__member-skills-right">
+									<div class="team__member-skill team__member-skill-sk"></div>90%
+								</div>
+							</div>
+							<div class="team__member-skills-row">
+								<div class="team__member-skills-left">After Effects</div>
+								<div class="team__member-skills-right">
+									<div class="team__member-skill team__member-skill-ae"></div>98%
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	<!-- member -->
+				<div class="team__member" data-member="2">
+					<div class="team__member-left">
+						<div class="team__member-avatar">
+							<img src="assets/images/team/team-member-2.jpg" alt="member">
+						</div>
+						<div class="team__member-name">Jane Smith</div>
+						<div class="team__member-prof">Designer</div>
+						<div class="team__member-social">
+							<a href="https://www.behance.net/" target="blank" class="team__member-social-item team__member-social-item-behance">
+								<img src="assets/images/team/social-1.png" alt="behance">
+							</a>
+							<a href="https://www.twitter.com" target="blank" class="team__member-social-item team__member-social-item-twitter">
+								<img src="assets/images/team/social-2.png" alt="twitter">
+							</a>
+							<a href="https://www.facebook.com/" target="blank" class="team__member-social-item team__member-social-item-facebook">
+								<img src="assets/images/team/social-3.png" alt="facebook">
+							</a>
+						</div>
+						<div class="members-switchers">
+							<button class="member-switcher" data-member="1"></button>
+							<button class="member-switcher member-switcher-active"></button>
+							<button class="member-switcher" data-member="3"></button>
+						</div>
+					</div>
+					<div class="team__member-right">
+						<div class="team__member-title">My skills</div>
+						<div class="team__member-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.nsectetur adipisicing elit, sed do eiusmod tempor.
+						</div>
+						<div class="team__member-skills">
+							<div class="team__member-skills-row">
+								<div class="team__member-skills-left">Photoshop</div>
+								<div class="team__member-skills-right">
+									<div class="team__member-skill team__member-skill-ps"></div>88%
+								</div>
+							</div>
+							<div class="team__member-skills-row">
+								<div class="team__member-skills-left">Illustrator</div>
+								<div class="team__member-skills-right">
+									<div class="team__member-skill team__member-skill-ill"></div>92%
+								</div>
+							</div>
+							<div class="team__member-skills-row">
+								<div class="team__member-skills-left">Sketch</div>
+								<div class="team__member-skills-right">
+									<div class="team__member-skill team__member-skill-sk"></div>90%
+								</div>
+							</div>
+							<div class="team__member-skills-row">
+								<div class="team__member-skills-left">After Effects</div>
+								<div class="team__member-skills-right">
+									<div class="team__member-skill team__member-skill-ae"></div>98%
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	<!-- member -->
+				<div class="team__member" data-member="3">
+					<div class="team__member-left">
+						<div class="team__member-avatar">
+							<img src="assets/images/team/team-member-3.jpg" alt="member">
+						</div>
+						<div class="team__member-name">Muhammad Avdol</div>
+						<div class="team__member-prof">Marketolog</div>
+						<div class="team__member-social">
+							<a href="https://www.behance.net/" target="blank" class="team__member-social-item team__member-social-item-behance">
+								<img src="assets/images/team/social-1.png" alt="behance">
+							</a>
+							<a href="https://www.twitter.com" target="blank" class="team__member-social-item team__member-social-item-twitter">
+								<img src="assets/images/team/social-2.png" alt="twitter">
+							</a>
+							<a href="https://www.facebook.com/" target="blank" class="team__member-social-item team__member-social-item-facebook">
+								<img src="assets/images/team/social-3.png" alt="facebook">
+							</a>
+						</div>
+						<div class="members-switchers">
+							<button class="member-switcher" data-member="1"></button>
+							<button class="member-switcher" data-member="2"></button>
+							<button class="member-switcher member-switcher-active"></button>
+						</div>
+					</div>
+					<div class="team__member-right">
+						<div class="team__member-title">My skills</div>
+						<div class="team__member-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.nsectetur adipisicing elit, sed do eiusmod tempor.
+						</div>
+						<div class="team__member-skills">
+							<div class="team__member-skills-row">
+								<div class="team__member-skills-left">Photoshop</div>
+								<div class="team__member-skills-right">
+									<div class="team__member-skill team__member-skill-ps"></div>88%
+								</div>
+							</div>
+							<div class="team__member-skills-row">
+								<div class="team__member-skills-left">Illustrator</div>
+								<div class="team__member-skills-right">
+									<div class="team__member-skill team__member-skill-ill"></div>92%
+								</div>
+							</div>
+							<div class="team__member-skills-row">
+								<div class="team__member-skills-left">Sketch</div>
+								<div class="team__member-skills-right">
+									<div class="team__member-skill team__member-skill-sk"></div>90%
+								</div>
+							</div>
+							<div class="team__member-skills-row">
+								<div class="team__member-skills-left">After Effects</div>
+								<div class="team__member-skills-right">
+									<div class="team__member-skill team__member-skill-ae"></div>98%
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	<!-- member -->
+			</div>	<!-- team members -->
+		</div>	<!-- team inner -->
+	</div>	<!-- container -->
+</div>	<!-- team -->
+
+<!-- ゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴ -->
+
+<div class="features roboto">
+	<div class="container">
+		<div class="features__inner">
+			<div class="features__title">Some&nbsp;&nbsp;Features</div>
+			<div class="features__title-underline"></div>
+			<div class="features__items">
+				<div class="feature__item">
+					<div class="feature__item-img" id="feature__item-img-1">
+						<img src="assets/images/features/ft-item-1.png" alt="feature">
+					</div>
+					<div class="feature__item-desc">Shortcodes</div>
+					<div class="feature__item-amount">46</div>
+				</div>
+				<div class="feature__item">
+					<div class="feature__item-img" id="feature__item-img-2">
+						<img src="assets/images/features/ft-item-2.png" alt="feature">
+					</div>
+					<div class="feature__item-desc">Intergrated Plugins</div>
+					<div class="feature__item-amount">128</div>
+				</div>
+				<div class="feature__item">
+					<div class="feature__item-img" id="feature__item-img-3">
+						<img src="assets/images/features/ft-item-3.png" alt="feature">
+					</div>
+					<div class="feature__item-desc">Creative Products</div>
+					<div class="feature__item-amount">450</div>
+				</div>
+				<div class="feature__item">
+					<div class="feature__item-img" id="feature__item-img-4">
+						<img src="assets/images/features/ft-item-4.png" alt="feature">
+					</div>
+					<div class="feature__item-desc">Clients Worldwide</div>
+					<div class="feature__item-amount">100+</div>
+				</div>
+			</div>
+		</div>	<!-- features inner -->
+	</div>	<!-- container -->
+</div>	<!-- features -->
+
+<!-- ゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴ -->
+
+<div class="blog roboto">
+	<div class="container" data-block="blog">
+		<div class="blog__inner">
+			<div class="title">Blog&nbsp;&nbsp;Posts</div>
+			<div class="title-underline"></div>
+			<div class="subtitle">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore manga aliqua. Ut enim ad minim veniam.
+			</div>
+			<div class="blog__articles">
+				<a href="articles/article_1.html" target="blank" class="blog__article">
+					<div class="blog__article-image">
+						<img src="assets/images/blog/article-cover-1.jpg" alt="cover">
+					</div>
+					<div class="blog__article-info">
+						<div class="blog__article-name">Create Creative & Clean</div>
+						<div class="blog__article-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</div>
+						<div class="blog__article-meta">
+							<div class="blog__article-date">
+								<img src="assets/images/blog/date.png" alt="date"> 26 Dec 2019
+							</div>
+							<div class="blog__article-stats">
+								<img src="assets/images/blog/like.png" alt="like"> 25
+								<img src="assets/images/blog/comment.png" alt="comm"> 11
+							</div>
+						</div>
+					</div>
+				</a>
+				<a href="articles/article_2.html" target="blank" class="blog__article">
+					<div class="blog__article-image">
+						<img src="assets/images/blog/article-cover-2.jpg" alt="cover">
+					</div>
+					<div class="blog__article-info">
+						<div class="blog__article-name">Make A Sleek Break</div>
+						<div class="blog__article-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</div>
+						<div class="blog__article-meta">
+							<div class="blog__article-date">
+								<img src="assets/images/blog/date.png" alt="date"> 24 Dec 2019
+							</div>
+							<div class="blog__article-stats">
+								<img src="assets/images/blog/like.png" alt="like"> 50
+								<img src="assets/images/blog/comment.png" alt="comm"> 14
+							</div>
+						</div>
+					</div>
+				</a>
+				<a href="articles/article_3.html" target="blank" class="blog__article">
+					<div class="blog__article-image">
+						<img src="assets/images/blog/article-cover-3.jpg" alt="cover">
+					</div>
+					<div class="blog__article-info">
+						<div class="blog__article-name">Creative Manipulations</div>
+						<div class="blog__article-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</div>
+						<div class="blog__article-meta">
+							<div class="blog__article-date">
+								<img src="assets/images/blog/date.png" alt="date"> 22 Dec 2019
+							</div>
+							<div class="blog__article-stats">
+								<img src="assets/images/blog/like.png" alt="like"> 101
+								<img src="assets/images/blog/comment.png" alt="comm"> 24
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>	<!-- blog articles -->
+		</div>	<!-- blog inner -->
+	</div>	<!-- container -->
+</div>	<!-- blog -->
+
+<!-- ゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴ -->
+
+<div class="pricing roboto">
+	<div class="container" data-block="plan">
+		<div class="pricing__inner">
+			<div class="pricing__title">Choose&nbsp;&nbsp;plan</div>
+			<div class="pricing-underline"></div>
+			<div class="pricing__items">
+				<div class="pricing__item pricing__item-top-hidden">
+					<div class="pricing__item-top">
+						<div class="pricing__item-title">Basic</div>
+						<div class="pricing__item-price">Free</div>
+					</div>
+					<div class="pricing__item-features">
+						<div class="pricing__item-features-row"><span>20</span> Pages</div>
+						<div class="pricing__item-features-row"><span>2</span> GB Storage</div>
+						<div class="pricing__item-features-row"><span>150</span> Members</div>
+						<div class="pricing__item-features-row"><span>2</span> Contributors</div>
+					</div>
+					<button class="pricing__item-btn">Purchase</button>
+				</div>
+				<div class="pricing__item pricing__item-bottom-hidden">
+					<div class="pricing__item-top">
+						<div class="pricing__item-title">Standart</div>
+						<div class="pricing__item-price"><span>$</span>24.00</div>
+					</div>
+					<div class="pricing__item-features">
+						<div class="pricing__item-features-row"><span>25</span> Pages</div>
+						<div class="pricing__item-features-row"><span>10</span> GB Storage</div>
+						<div class="pricing__item-features-row"><span>300</span> Members</div>
+						<div class="pricing__item-features-row"><span>5</span> Contributors</div>
+					</div>
+					<button class="pricing__item-btn">Purchase</button>
+				</div>
+				<div class="pricing__item pricing__item-top-hidden">
+					<div class="pricing__item-top">
+						<div class="pricing__item-title">Premium</div>
+						<div class="pricing__item-price"><span>$</span>40.00</div>
+					</div>
+					<div class="pricing__item-features">
+						<div class="pricing__item-features-row"><span>30</span> Pages</div>
+						<div class="pricing__item-features-row"><span>20</span> GB Storage</div>
+						<div class="pricing__item-features-row"><span>500</span> Members</div>
+						<div class="pricing__item-features-row"><span>10</span> Contributors</div>
+					</div>
+					<button class="pricing__item-btn">Purchase</button>
+				</div>
+				<div class="pricing__item pricing__item-bottom-hidden">
+					<div class="pricing__item-top">
+						<div class="pricing__item-title">Professional</div>
+						<div class="pricing__item-price"><span>$</span>75.00</div>
+					</div>
+					<div class="pricing__item-features">
+						<div class="pricing__item-features-row"><span>40</span> Pages</div>
+						<div class="pricing__item-features-row"><span>40</span> GB Storage</div>
+						<div class="pricing__item-features-row"><span>1000</span> Members</div>
+						<div class="pricing__item-features-row"><span>20</span> Contributors</div>
+					</div>
+					<button class="pricing__item-btn">Purchase</button>
+				</div>
+			</div>	<!-- pricing items -->
+		</div>	<!-- pricing inner -->
+	</div>	<!-- container -->
+</div>	<!-- pricing -->
+
+<!-- ゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴ -->
+
+<div class="contact roboto">
+	<div class="container" data-block="contact">
+		<div class="contact__inner">
+			<div class="title">Get&nbsp;&nbsp;in&nbsp;&nbsp;touch</div>
+			<div class="title-underline"></div>
+			<div class="subtitle">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore manga aliqua. Ut enim ad minim veniam.
+			</div>
+			<form class="contact__form">
+				<div class="contact__form-input-wrapper">
+					<label for="input-name">Name <span>*</span></label>
+					<input type="text" class="contact__form-input" id="input-name">
+				</div>
+				<div class="contact__form-input-wrapper">
+					<label for="input-email">E-mail <span>*</span></label>
+					<input type="email" class="contact__form-input" id="input-email">
+				</div>
+				<div class="contact__form-textarea-wrapper">
+					<label for="textarea">Message <span>*</span></label>
+					<textarea id="textarea"></textarea>
+				</div>
+				<button class="contact__form-btn" type="submit">Send message</button>
+			</form>
+		</div>	<!-- contact inner -->
+	</div>	<!-- container -->
+</div>	<!-- contact -->
+
+<!-- ゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴ -->
+
+<div class="map roboto">
+	<div class="map__open">Locate on map <img src="assets/images/map/map-arrow.png" alt="map"></div>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1478.3433632255274!2d30.525557920375032!3d50.44651367576247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce54746c61e1%3A0x95dff67e2367e870!2sHublot%20Boutique%20Kyiv!5e0!3m2!1sru!2sua!4v1577473652715!5m2!1sru!2sua" allowfullscreen=""></iframe>
+</div>	<!-- map -->
+
+<!-- ゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴ -->
+
+<footer class="footer roboto">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="footer__logo">
+				<img src="assets/images/header/logo@x1.png" alt="logo">
+			</div>
+			<div class="footer__title">Boostfolia</div>
+			<div class="footer__text">Made with rjaka by Dimon</div>
+			<div class="footer__social">
+				<a href="https://www.behance.net/" target="blank" class="footer__link">
+					<img src="assets/images/footer/behance.png" alt="behance">
+				</a>
+				<a href="https://www.twitter.com" target="blank" class="footer__link">
+					<img src="assets/images/footer/twitter.png" alt="twitter">
+				</a>
+				<a href="https://facebook.com" target="blank" class="footer__link">
+					<img src="assets/images/footer/facebook.png" alt="facebook">
+				</a>
+			</div>
+		</div>	<!-- footer inner -->
+	</div>	<!-- container -->
+</footer>	<!-- footer -->
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
